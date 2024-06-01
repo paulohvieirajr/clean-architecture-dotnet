@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "nQLxk3LcpWgBV8K64ERBXLd+OHcLRvDab2za+Pf2a1PJkeuC9/EyruA3mmd7N2iJKiqB3zeJiiCL4mrsHJCxvA==",
+  "dgSpecHash": "8RogQNVMR/JM7jcd5FIPQP7AtD4TkaWNCFwy1zcT7a9sFzJa0epFEVQ9S5r690RgJ3fehxA+i6BEerfeIC1j9A==",
   "success": true,
   "projectFilePath": "C:\\dev\\github\\clean-architecture-dotnet\\CleanArchMVC\\CleanArchMVC.WebUI\\CleanArchMVC.WebUI.csproj",
   "expectedPackageFiles": [

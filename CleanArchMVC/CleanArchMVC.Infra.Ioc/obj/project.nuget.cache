@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "V0oqFh9e+FFasKFwK95+CHTRa8rF/heADm0Jd9DIePHpD7N5vpyudXDRCU/vL3yzeMqOwVT/rM5++kLZLgUGYQ==",
+  "dgSpecHash": "/ihySztA+OAAPqinVf7TGBQEMfJiR5ut42XjFm6IJRd2Yv+KqHRja+P+fqONtVO5LyhSdEVajHp8CNwk/tr4jA==",
   "success": true,
   "projectFilePath": "C:\\dev\\github\\clean-architecture-dotnet\\CleanArchMVC\\CleanArchMVC.Infra.Ioc\\CleanArchMVC.Infra.Ioc.csproj",
   "expectedPackageFiles": [],
