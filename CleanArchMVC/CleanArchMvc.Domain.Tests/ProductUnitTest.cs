@@ -99,7 +99,6 @@ namespace CleanArchMvc.Domain.Tests
                 .WithMessage("Invalid image name, too long, maximum 250 characters");
         }
 
-
         [Fact(DisplayName = "Create Product With Valid Parameters without image and null exception")]
         public void CreateProduct_WithValidParametersWithoutImageValue_ResultObjectValidStateWithoutNullException()
         {
