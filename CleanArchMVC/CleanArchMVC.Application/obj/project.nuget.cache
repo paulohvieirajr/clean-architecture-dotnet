@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6VE4v8jU4o4aEw2JK6i7PQil10DiNLJgS5XJudzZ6Eqd+9xcRDMAsWa98Wy8LAqLI6VpXcIc+te/6c196imUsQ==",
+  "dgSpecHash": "yvmLw4HI+BU=",
   "success": true,
   "projectFilePath": "C:\\dev\\github\\clean-architecture-dotnet\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj",
   "expectedPackageFiles": [
