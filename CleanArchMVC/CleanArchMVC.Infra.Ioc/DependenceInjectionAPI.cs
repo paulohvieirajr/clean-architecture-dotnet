@@ -30,6 +30,7 @@ namespace CleanArchMVC.Infra.Ioc
 
             // Servicos de autenticacao
             services.AddScoped<IAuthenticate, AuthenticateService>();
+            services.AddScoped<ISeedUserRoleInitial, SeedUserRoleInitial>();
 
             // Repositories
             services.AddScoped<ICategoryRepository, CategoryRepository>();

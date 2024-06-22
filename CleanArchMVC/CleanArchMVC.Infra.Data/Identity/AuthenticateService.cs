@@ -15,6 +15,7 @@ namespace CleanArchMVC.Infra.Data.Identity
             _userManager = userManager;
             _signInManager = signInManager;
         }
+
         public async Task<bool> Authenticate(string email, string password)
         {
             var result = await _signInManager.PasswordSignInAsync(email, password, false, lockoutOnFailure: false);
@@ -27,10 +28,15 @@ namespace CleanArchMVC.Infra.Data.Identity
             var applicationUser = new ApplicationUser()
             {
                 UserName = email,
-                Email = email
+                Email = email,
+                NormalizedEmail = email,
+                NormalizedUserName = email,
+                EmailConfirmed = true,
+                LockoutEnabled = false,
+                SecurityStamp = Guid.NewGuid().ToString(),
             };
 
-            var result = await _userManager.CreateAsync(applicationUser);
+            var result = await _userManager.CreateAsync(applicationUser, password);
 
             if (result.Succeeded)
             {
